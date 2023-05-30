@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click-Me Game</title>
+  <style>
+    body{
+        background-image: url(blue.jpg);
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+h1{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-family: sans-serif;
+    text-shadow: 2px 2px darkblue;
+}
+img {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px burlywood;
+}
+#end{
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+}
+  </style>
+</head>
+<body>
+  <h1>Click-Me Game</h1>
+  <p>Click the Below picture as many times as you can in <span id="time">10</span> wacky seconds!</p>
+  <img src="shinchan.jpg" id="animalPicture" alt="Animal Picture" class="animal-picture" height="200px">
+  <p id="score">Score: 0</p>
+  <script src="shinchan.js"></script>
+  <div id="end"></div>
+</body>
+</html>
